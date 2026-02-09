@@ -5,6 +5,7 @@ import '../pages/dashboard_page.dart';
 import '../pages/purchase_history_page.dart';
 import '../pages/supplier_master_page.dart';
 import '../pages/add_supplier_page.dart';
+import '../pages/stock_page.dart';
 
 class AppRoutes {
   static final routes = <String, WidgetBuilder>{
@@ -13,6 +14,7 @@ class AppRoutes {
     '/add-supplier': (_) => const AddSupplierPage(),
     '/purchase-history': (_) => const PurchaseHistoryPage(),
     '/add-purchase-bill': (_) => const NewPurchaseEntryPage(),
-    '/purchase_detail_page':(_) => const PurchaseDetailsPage()
+    '/purchase_detail_page': (_) => const PurchaseDetailsPage(),
+    '/stock': (_) => const StockPage(),
   };
 }
